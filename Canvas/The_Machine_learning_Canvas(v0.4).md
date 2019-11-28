@@ -64,4 +64,10 @@ _How_: 左側の`PREDICT`と右側の`LEARN`に分けることができる。
     4. Building models
 
 最後に`Live Evaluation and Monitoring`について   
-デプロイ後にシステムを評価し、価値を定量化するための方法と評価基準について。
+デプロイ後にシステムを評価し、価値を定量化するための方法と評価基準について考える。
+
+# Canvasの記入方法: `LEARN`パート
+`Data sources`, `Collecting data`. `Features`, `Building Models`
+
+- Data sources
+
