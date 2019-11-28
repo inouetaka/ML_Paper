@@ -1,5 +1,7 @@
 # The Machine Learning Canvas
 
+![Canvas](https://github.com/inouetaka/ML_Paper/blob/master/Canvas/image/The_Machine_Learning_Canvas.png)
+
 ## 1. Decisions 
 - How are predictionsused to make decisions that provide the proposed value to the end-user?   
 `予測はエンドユーザーの意思決定にどのような価値を提供するか？`
