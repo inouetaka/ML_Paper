@@ -1,7 +1,7 @@
 # Abstract(要旨)
-Detection identifies objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustice list of potential object locations and classify each.
+Detection identifies objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustive list of potential object locations and classify each.
 
-```ディテクションでは画像内のオブジェクトに対して座標軸に平行なボックスとして認識します。最も成功したオブジェクト検出器は、潜在的なオブジェクトの場所のほぼ網羅的なリストを列挙し、それぞれを分類します。```
+```ディテクションでは画像内のオブジェクトに対して座標軸に平行なボックスとして識別します。最も成功したオブジェクト検出器は、潜在的なオブジェクトの場所のほぼ網羅的なリストを列挙し、それぞれを分類します。```
 
 This is wasteful, inefficient, and requires additional post-processing. In this paper, we take a different approach.
 
@@ -22,6 +22,18 @@ CenterNet achieves the best speed-accuracy trade-off on the MS COCO dataset, wit
 We use the same approach to estimate 3D bounding box in the KITTI benchmark and human pose on the COCO keypoint dataset. Our method performs compertitively with sophisticated multi-stage methods and runs in real-time.
 
 ```KITTIベンチマークの3D境界ボックスとCOCOキーポイントデータセットのヒトのポーズを推定するためにも同様の手法を用い、高度な多段階メソッドで競争力を発揮し、リアルタイムで実行します。```
+
+## 単語帳
+`identifies`:[他動]識別する   
+`axis-aligned`:[-]座標軸に平行な   
+`enumerate`:[他動]列挙する   
+`exhaustive`:[形]徹底的に   
+`inefficient`:[形]非効率な   
+`requires`:[他動]~を必要とする   
+`post-processing`:[名]後処理
+
+
+
 
 # Introduction(はじめに)
 Object detection powers many vision tasks like instance segmentation[7,21,32], pose estimation [3,15,39], tracking[24,27], and action recognition [5]. 
@@ -47,6 +59,8 @@ For each bounding box, the classifier determines if the image content is specifi
 
 One-stage detectors[33,43] slide a complex arrangement of possible bounding boxes, called anchors, over the image and classify them directly without specifying the vox content.
 
-```
-単段検出器
-```
+```単段検出器[33,43]はアンカーと呼ばれる可能性のある境界ボックスの複雑な配列を画像上にスライドさせ、それらをボックス内容を特定せずに直接分類する。```
+
+
+
+
